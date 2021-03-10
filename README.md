@@ -8,7 +8,7 @@ nessus installation on docker environment
 * Execute the following commands
 ```
 # chmod +x install.sh
-# ./install
+# ./install.sh
 ```
 
 ### Uninstallation guide
