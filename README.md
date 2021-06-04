@@ -4,7 +4,7 @@ nessus installation on docker environment
 
 ### Installation guide
 * `git clone https://github.com/1uffyD9/docker-nessus.git && cd docker-nessus`
-* Go to [this site](https://www.tenable.com/downloads/nessus) and download `Nessus-***************_amd64.deb` version and copy that file into current directory.
+* Go to [this site](https://www.tenable.com/downloads/nessus) and download `Nessus-***************_amd64.deb` (Look for lastest ubuntu 64bit version) and copy that file into current directory and rename it to `nessus.deb`.
 * Execute the following commands
 ```
 # chmod +x install.sh
@@ -16,4 +16,5 @@ nessus installation on docker environment
 * Execute the following commands
 ```
 # chmod +x uninstall.sh
+# ./uninstall.sh
 ```
