@@ -14,6 +14,6 @@ then
 fi
 
 echo -e "$Y[*] Removing Nessus...$NC"
-sudo docker stop nessus_runner && sudo docker rm nessus_runner && sudo docker rmi nessus:v1
+sudo docker stop nessus_runner & sudo docker rm nessus_runner & sudo docker rmi nessus:v1
 echo -e "$GREEN[*] Done!$NC"
 
